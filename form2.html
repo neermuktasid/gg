@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title>Employee</title>
+	<style>
+		.c1{
+			background-color:#F2F2F2;
+		}
+		.c2{
+			background-color:#CBCBCB;
+		}
+		
+	</style>
+</head>
+<body>
+<div align="center">
+	<div style= "width:650px;border:1px solid black;background-color:C7F7FF" align="left" >
+		<div style= "margin:45px">
+		
+		<form name="emp">
+			<table>
+				<tr>
+					<td><span style="font-weight: bold">Employee's Name</span></td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="firstName"></td>
+					<td><input type="text" name="lastName"></td>
+				</tr>
+				<tr>
+					<td><h5 style="font-weight: normal">First Name</h5></td>
+					<td><h5 style="font-weight: normal">Last Name</h5></td>
+				</tr>
+			</table>
+			<p style="position:relative; top: -30px"><b>Employee's Hire Date</b><br/>
+			<select name="date">
+				<option>1</option>
+			</select>
+			<select name="month">
+				<option>July</option>
+			</select>
+			<select name="year">
+				<option>2014</option>
+			</select>
+			</p>
+            <p style="position:relative; top: -30px"><b>Employee's Title</b><br/>
+			<input type="text" name="empTitle"></p>
+            <p style="position:relative; top: -30px"><b>Employee's Department</b><br/>
+			<select name="dept">
+                <option><b>Marketing</b></option>
+			</select></p>
+            <p style="position:relative; top: -30px"><b>Performance Evaluation</b><br/>
+			<table>
+				<tr>
+					<th width= "20%"></th>
+					<th class=c1 width= "14%" >Very Good</th>
+					<th class=c2 width= "14%" >Good</th>
+					<th class=c1 width= "14%" >Fair</th>
+					<th class=c2 width= "14%" >Poor</th>
+					<th class=c1 width= "14%" >Very Poor</th>
+				</tr>
+				<tr>
+					<td class=c2>Attendence</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+				<tr>
+					<td class=c2>Quality of  work</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+				<tr>
+					<td class=c2>Quantity of  work</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+				<tr>
+					<td class=c2>Attitude</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+				<tr>
+					<td class=c2>Dependibility</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+				<tr>
+					<td class=c2>Work ethic</td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c2><input type="radio" name="vGood" value="vGood"></td>
+					<td class=c1><input type="radio" name="vGood" value="vGood"></td>
+				</tr>
+			</table></p>
+            <p><span><b>Overall, Iwould rank this employee's performance as:</b></span><br/>
+                <input type="radio" name="vgoo"><span style="font-weight:normal">Very Good</span>
+			<input type="radio" name="good">Good
+			<input type="radio" name="Fair">Fair
+			<input type="radio" name="poor">Poor
+			<input type="radio" name="vPoor">Very Poor</p>
+            <p><b>Please go into more detail on why you chose this ranking</b>
+			<textarea name="textbox" rows="10" cols="68"></textarea></p>
+			<table>
+				<tr>
+                    <td><b>Supervisor's Name</b></td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="firstName"></td>
+					<td><input type="text" name="lastName"></td>
+				</tr>
+				<tr>
+					<td>First Name</td>
+					<td>Last Name</td>
+				</tr>
+			</table>
+            <p><b>Supervisor's Signature</b></p>
+			
+        <hr>
+		</form>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
